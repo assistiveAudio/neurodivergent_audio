@@ -1,0 +1,11 @@
+url: https://assistiveAudio.github.io
+baseurl: /neurodivergent_audio/
+
+# Site settings
+title:
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+theme: jekyll-theme-minimal
