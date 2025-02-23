@@ -143,7 +143,7 @@ Click the play button to listen to the corresponding audio files.
 <body>
 
   <!-- p3 in its own row -->
-  <h3>Mean Perceived Improvement (1.5)</h3>
+  <h3>Mean Triggerability across Trigger Labels</h3>
   <div class="iframe-container" style="margin-bottom: 2rem;">
     <iframe
       src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p3"
@@ -156,7 +156,7 @@ Click the play button to listen to the corresponding audio files.
   <!-- p4 and p2 side by side -->
   <div class="figure-row">
     <div class="figure-col">
-      <h3>Mean Perceived Improvement (0.6)</h3>
+      <h3>Overall Mean Triggerability</h3>
       <div class="iframe-container">
         <iframe
           src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p4"
@@ -167,7 +167,7 @@ Click the play button to listen to the corresponding audio files.
       </div>
     </div>
     <div class="figure-col">
-      <h3>Mean Triggerability (0.8)</h3>
+      <h3>Overall Mean Perceived Improvement</h3>
       <div class="iframe-container">
         <iframe
           src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p2"
@@ -180,7 +180,7 @@ Click the play button to listen to the corresponding audio files.
   </div>
 
   <!-- p1 in its own row -->
-  <h3>Mean Triggerability (1.5)</h3>
+  <h3>Mean Perceived Improvement across Trigger Labels</h3>
   <div class="iframe-container">
     <iframe
       src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p1"
