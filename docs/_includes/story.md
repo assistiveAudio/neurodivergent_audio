@@ -119,13 +119,12 @@ Click the play button to listen to the corresponding audio files.
 </div>
 
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>My Figures</title>
   <style>
-    /* Optional: Just for neat spacing when placing elements side by side */
     .figure-row {
       display: flex;
       flex-direction: row;
@@ -143,41 +142,26 @@ Click the play button to listen to the corresponding audio files.
 </head>
 <body>
 
-  <!-- First row: p3 and p1 side by side (Mean Perceived Improvement (1.5) and Mean Triggerability (1.5)) -->
-  <div class="figure-row">
-    <div class="figure-col">
-      <h3>Mean Perceived Improvement (1.5)</h3>
-      <div class="iframe-container">
-        <iframe 
-          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p3" 
-          width="100%" 
-          height="500px" 
-          style="border: none;">
-        </iframe>
-      </div>
-    </div>
-    <div class="figure-col">
-      <h3>Mean Triggerability (1.5)</h3>
-      <div class="iframe-container">
-        <iframe 
-          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p1" 
-          width="100%" 
-          height="400px" 
-          style="border: none;">
-        </iframe>
-      </div>
-    </div>
+  <!-- p3 in its own row -->
+  <h3>Mean Perceived Improvement (1.5)</h3>
+  <div class="iframe-container" style="margin-bottom: 2rem;">
+    <iframe
+      src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p3"
+      width="100%"
+      height="500px"
+      style="border: none;">
+    </iframe>
   </div>
 
-  <!-- Second row: p4 and p2 side by side (Mean Perceived Improvement (0.6) and Mean Triggerability (0.8)) -->
+  <!-- p4 and p2 side by side -->
   <div class="figure-row">
     <div class="figure-col">
       <h3>Mean Perceived Improvement (0.6)</h3>
       <div class="iframe-container">
-        <iframe 
-          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p4" 
-          width="100%" 
-          height="500px" 
+        <iframe
+          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p4"
+          width="100%"
+          height="500px"
           style="border: none;">
         </iframe>
       </div>
@@ -185,18 +169,29 @@ Click the play button to listen to the corresponding audio files.
     <div class="figure-col">
       <h3>Mean Triggerability (0.8)</h3>
       <div class="iframe-container">
-        <iframe 
-          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p2" 
-          width="100%" 
-          height="500px" 
+        <iframe
+          src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p2"
+          width="100%"
+          height="500px"
           style="border: none;">
         </iframe>
       </div>
     </div>
   </div>
 
+  <!-- p1 in its own row -->
+  <h3>Mean Triggerability (1.5)</h3>
+  <div class="iframe-container">
+    <iframe
+      src="https://assistiveAudio.github.io/neurodivergent_audio/assets/p1"
+      width="100%"
+      height="400px"
+      style="border: none;">
+    </iframe>
+  </div>
+
   <!-- Shared description for all four iframes -->
-  <p>
+  <p style="margin-top: 1rem;">
     T-bars represent bootstrapped 95% confidence intervals. Stars indicate the 
     significance level of an algorithm having a higher perceived value than 
     the algorithm of comparison (<em>*p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001</em>). 
@@ -204,9 +199,10 @@ Click the play button to listen to the corresponding audio files.
     a Friedman test was conducted, followed by a paired Wilcoxon Post-hoc test. 
     P-values were adjusted with Bonferroni.
   </p>
-  
+
 </body>
 </html>
+
 
 
 
