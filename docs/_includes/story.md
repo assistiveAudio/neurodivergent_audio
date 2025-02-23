@@ -7,7 +7,7 @@ Click the play button to listen to the corresponding audio files.
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Audio Table Example</title>
+  <title>Audio Samples for Listening Test</title>
   <style>
     /* Style for the table */
     .audio-table {
@@ -35,8 +35,8 @@ Click the play button to listen to the corresponding audio files.
 <table class="audio-table">
   <thead>
     <tr>
-      <th>Stimuli (Trigger)</th>
-      <th>Corresponding Non-Trigger</th>
+      <th>Trigger</th>
+      <th>Non-Trigger</th>
       <th>NN</th>
       <th>DRC</th>
       <th>GT</th>
