@@ -388,8 +388,10 @@ Click the play button to listen to the corresponding audio files.
     significance level of an algorithm having a higher perceived value than 
     the algorithm of comparison (<em>*p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001</em>). 
     The color of the star indicates the algorithm of comparison. For the comparison, 
-    a Friedman test was conducted, followed by a paired Wilcoxon Post-hoc test. 
-    P-values were adjusted with Bonferroni.
+    a Friedman test was conducted, followed by a paired Wilcoxon post hoc test. 
+    P-values were adjusted with Bonferroni. The different stimuli versions are abbreviated 
+    the following way: Ground Truth (GT), Noise Cancelling (ANC), Dynamic Range Compression (DRC),
+    Auto-Encoder Neural Network (NN), Raw Mixture (Mix).
   </p>
 
 </body>
