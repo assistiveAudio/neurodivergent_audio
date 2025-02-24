@@ -3,7 +3,7 @@
 Below is a comparison table with audio samples for different stimuli using four audio processing stages: **NN**, **DRC**, **GT** (Ground Truth), and **Mix**.  
 Click the play button to listen to the corresponding audio files.
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
