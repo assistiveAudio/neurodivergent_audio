@@ -1,6 +1,6 @@
 ## Audio Comparison Table
 
-Below is a comparison table with audio samples for different stimuli using four audio processing stages: **Neural Network Model (NN)**, **Dynamic Range Compression (DRC)**, **Ground Truth (GT)**, and **Mixture (Mix)**.  
+Below is a comparison table with audio samples for different stimuli using four audio processing stages: **Neural Network Model (NN)**, **Dynamic Range Compression (DRC)**, **Ground Truth (GT)**, and **Raw Mixture (Mix)**.  
 Click the play button to listen to the corresponding audio files.
 
 
